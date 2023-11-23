@@ -1,5 +1,5 @@
 {
-    "name": "lee/short-url",
+    "name": "lsqpy/short-url",
     "type": "library",
     "autoload": {
         "psr-4": {
