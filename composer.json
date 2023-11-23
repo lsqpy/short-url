@@ -1,0 +1,30 @@
+{
+    "name": "lee/short-url",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lee\\ShortUrl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lee windows",
+            "email": "120337210@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "paragonie/easydb": "^2",
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/cache": "^4.4|^5.0|^6.0",
+        "predis/predis": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyShortUrl\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Functions.php"
+        ]
+    }
+}
